@@ -1,0 +1,43 @@
+.Track {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .Track-action, 
+  .Track-action-plus,
+  .Track-action-minus {
+    cursor: pointer;
+    padding: .5rem;
+    font-size: 1.05rem;
+    transition: color .25s;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #00000088;
+  }
+  
+  .Track-action-plus:hover {
+    color: #1ed760;
+  }
+  
+  .Track-action-minus:hover {
+    color: #d71e1e;
+  }
+  
+  .Track-information {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 72px;
+  }
+  
+  .Track-information h3 {
+    margin-bottom: .22rem;
+  }
+  
+  .Track-information p {
+    font-size: .83rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
+  }
