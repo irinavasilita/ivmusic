@@ -3,6 +3,8 @@
 ## ivMusic
 
 **ivMusic** is a useless React app for creating new playlists with Spotify. 
+- Deployed with surge at [ivMusic](https://ivmusic.surge.sh/).
+
 
 ## Codecademy
 Project built during my [Full-Stack Engineer Career Path Course on Codecademy](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path).
